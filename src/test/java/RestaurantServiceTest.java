@@ -72,17 +72,6 @@ class RestaurantServiceTest {
     }
     //<<<<<<<<<<<<<<<<<<<<ADMIN: ADDING & REMOVING RESTAURANTS>>>>>>>>>>>>>>>>>>>>>>>>>>
     
-    @Test
-    public void order_value_test(){
-        ArrayList<String> orderedItems = new ArrayList<String>();
-        //orderedItems.add("papad");
-        orderedItems.add("Vegetable lasagne");
-        orderedItems.add("Sweet corn soup");
 
-        int orderValue = restaurant.orderValue(orderedItems);
-        assertEquals(orderValue , 388);
-
-
-    }
 }
 
